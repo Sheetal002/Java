@@ -1,0 +1,16 @@
+Develop a console-based ATM application in Java that allows users to perform basic banking transactions such as deposits, withdrawals, and balance inquiries, using a JDBC connection to a MySQL database.
+The application should have the following features:
+
+1. Create an account with a unique account number and PIN code.
+2. Check the account balance.
+3. Make a deposit into the account.
+4. Make a withdrawal from the account.
+5. Exit the application.
+
+Additionally, the application should enforce the following conditions:
+1. The account number must be unique and cannot be duplicated.
+2. The PIN code must have a minimum length of 4 characters and cannot contain spaces.
+3. When checking the account balance, display the current balance.
+4. When making a deposit, add the deposited amount to the current balance and display the updated balance.
+5. When making a withdrawal, subtract the withdrawn amount from the current balance, and display the updated balance.
+6. If the withdrawal amount is greater than the current balance, display an error message and do not perform the transaction.
