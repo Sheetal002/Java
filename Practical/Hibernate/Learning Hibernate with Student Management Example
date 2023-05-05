@@ -1,0 +1,7 @@
+Learning Hibernate with Student Management Example
+
+This repository contains code samples and resources for learning Hibernate ORM (Object-Relational Mapping) with a student management example.
+
+Introduction
+Hibernate is a popular Java ORM (Object-Relational Mapping) framework that allows developers to map Java classes to database tables and perform database operations using simple API calls. 
+In this example, we will create a simple student management application that uses Hibernate to persist student data to a MySQL database.
